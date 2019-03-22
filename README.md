@@ -9,6 +9,7 @@ Clone o projeto para dentro do diretório **resources/lang/** do seu projeto, no
 ```bash
 cd resources/lang/
 git clone https://github.com/rafaellaurindo/laravel-5.8-pt-BR-localization ./pt-BR
+rm -rf ./pt-BR/.git
 ```
 
 Então, edite o arquivo **config/app.php** para alterar o idioma padrão da sua aplicação:
