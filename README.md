@@ -1,15 +1,15 @@
-# Tradução do Laravel 5.8 para português (pt-BR)
+# Tradução do Laravel 5.8 para português (pt-br)
 
 Esses arquivos de tradução traz em português todas as mensagens padrões do laravel 5.8.
 
 ## Como utilizar
 
-Clone o projeto para dentro do diretório **resources/lang/** do seu projeto, nomeando à pasta como **pt-BR**:
+Clone o projeto para dentro do diretório **resources/lang/** do seu projeto, nomeando à pasta como **pt-br**:
 
 ```bash
 cd resources/lang/
-git clone https://github.com/rafaellaurindo/laravel-5.8-pt-BR-localization ./pt-BR
-rm -rf ./pt-BR/.git
+git clone https://github.com/rafaellaurindo/laravel-5.8-pt-br-localization ./pt-br
+rm -rf ./pt-br/.git
 ```
 
 Então, edite o arquivo **config/app.php** para alterar o idioma padrão da sua aplicação:
@@ -19,7 +19,7 @@ Então, edite o arquivo **config/app.php** para alterar o idioma padrão da sua 
 'locale' => 'en',
 
 // e altere para:
-'locale' => 'pt-BR',
+'locale' => 'pt-br',
 ```
 
 Pronto! Seu projeto agora estará em português. :tada:
@@ -30,4 +30,4 @@ Pronto! Seu projeto agora estará em português. :tada:
 
 ## License
 
-[MIT](https://github.com/rafaellaurindo/laravel-5.8-pt-BR-localization/blob/master/LICENSE)
+[MIT](https://github.com/rafaellaurindo/laravel-5.8-pt-br-localization/blob/master/LICENSE)
