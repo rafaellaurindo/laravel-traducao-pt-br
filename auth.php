@@ -11,7 +11,7 @@ return [
     | messages that we need to display to the user. You are free to modify
     | these language lines according to your application's requirements.
     |
-    */
+     */
 
     'failed' => 'Essas credenciais não correspondem aos nossos registros.',
     'throttle' => 'Muitas tentativas de login. Tente novamente em :seconds segundos.',
