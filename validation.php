@@ -1,18 +1,6 @@
 <?php
 
 return [
-
-    /*
-    |--------------------------------------------------------------------------
-    | Validation Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines contain the default error messages used by
-    | the validator class. Some of these rules have multiple versions such
-    | as the size rules. Feel free to tweak each of these messages here.
-    |
-     */
-
     'accepted' => 'O campo :attribute deve ser aceito.',
     'active_url' => 'O campo :attribute não é uma URL válida.',
     'after' => 'O campo :attribute deve ser uma data posterior a :date.',
@@ -32,6 +20,7 @@ return [
     'boolean' => 'O campo :attribute deve ser verdadeiro ou falso.',
     'confirmed' => 'O campo :attribute de confirmação não confere.',
     'date' => 'O campo :attribute não é uma data válida.',
+    'date_equals' => 'O campo :attribute deve ser uma data igual à :date.',
     'date_format' => 'O campo :attribute não corresponde ao formato :format.',
     'different' => 'Os campos :attribute e :other devem ser diferentes.',
     'digits' => 'O campo :attribute deve ter :digits dígitos.',
@@ -39,6 +28,7 @@ return [
     'dimensions' => 'O campo :attribute tem dimensões de imagem inválidas.',
     'distinct' => 'O campo :attribute campo tem um valor duplicado.',
     'email' => 'O campo :attribute deve ser um endereço de e-mail válido.',
+    'ends_with' => 'O campo :attribute deve terminar com um dos seguintes valores: :values.',
     'exists' => 'O campo :attribute selecionado é inválido.',
     'file' => 'O campo :attribute deve ser um arquivo.',
     'filled' => 'O campo :attribute deve ter um valor.',
@@ -91,6 +81,7 @@ return [
     'not_in' => 'O campo :attribute selecionado é inválido.',
     'not_regex' => 'O campo :attribute possui um formato inválido.',
     'numeric' => 'O campo :attribute deve ser um número.',
+    'password' => 'A senha está incorreta.',
     'present' => 'O campo :attribute deve estar presente.',
     'regex' => 'O campo :attribute tem um formato inválido.',
     'required' => 'O campo :attribute é obrigatório.',
@@ -107,35 +98,19 @@ return [
         'string' => 'O campo :attribute deve ser :size caracteres.',
         'array' => 'O campo :attribute deve conter :size itens.',
     ],
+    'starts_with' => 'O campo :attribute deve começar com um dos seguintes valores: :values.',
     'string' => 'O campo :attribute deve ser uma string.',
     'timezone' => 'O campo :attribute deve ser uma zona válida.',
     'unique' => 'O campo :attribute já está sendo utilizado.',
     'uploaded' => 'Ocorreu uma falha no upload do campo :attribute.',
     'url' => 'O campo :attribute tem um formato inválido.',
-    /*
-    |--------------------------------------------------------------------------
-    | Custom Validation Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify custom validation messages for attributes using the
-    | convention "attribute.rule" to name the lines. This makes it quick to
-    | specify a specific custom language line for a given attribute rule.
-    |
-     */
+    'uuid' => 'O campo :attribute deve ser um UUID válido.',
+
     'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
     ],
-    /*
-    |--------------------------------------------------------------------------
-    | Custom Validation Attributes
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
-    |
-     */
+
     'attributes' => [],
 ];
