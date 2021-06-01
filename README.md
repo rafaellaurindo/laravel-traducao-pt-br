@@ -1,11 +1,11 @@
-# Tradução Laravel(5.x, 6.x e 7.x) para português(pt-br)
+# Tradução Laravel para português(pt-BR)
 
 > Mensagens padrões do Laravel em português.
 
 [![GitHub issues][issues-image]][issues-url]
 [![License][license-image]][license-url]
 
-Arquivos de tradução para todas as mensagens padrões do [Laravel](https://laravel.com/) à partir da versão 5.x, suportando até a versão 7.x.
+Arquivos de tradução para todas as mensagens padrões do [Laravel](https://laravel.com/) à partir da versão 5+, suportando até a versão atual (8+).
 
 ## Traduções Inclusas
 
@@ -50,9 +50,10 @@ Distributed under the MIT license. See [LICENSE](https://github.com/rafaellaurin
 
 If this project have helped you in any way, consider buying me a :coffee:
 
-Using Paypal:
+- Bitcoin: `1Gh4CXTKYTT9jvDCJGEkxya9XohfqnuA9s`
 
-<a href="https://www.buymeacoffee.com/rafaellaurindo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 47px !important;width: 217px !important;" ></a>
+- Paypal: [https://ko-fi.com/rafaellaurindo](https://ko-fi.com/rafaellaurindo)
+
 
 ## Contributing
 
